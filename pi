@@ -1,0 +1,74 @@
+Nome do APP:
+TrafficZone
+
+Metodologia Ágil:
+Kanban
+
+Requisitos:
+REQUISITOS FUNCIONAIS
+1. Detecção de Acidente
+Utilizar sensores do smartphone (acelerômetro, giroscópio, GPS) para identificar padrões de colisão ou queda brusca.
+
+Analisar dados em tempo real com algoritmos de Machine Learning ou lógica baseada em thresholds (ex: aceleração acima de 3g).
+
+2. Confirmação de Emergência
+Enviar uma notificação com um temporizador (ex: 10-30 segundos) permitindo que o usuário cancele o alerta em caso de falso positivo.
+
+Se o usuário não responder, o app inicia automaticamente a chamada de emergência.
+
+3. Chamada Automática para Emergência
+Realizar ligação para o número de emergência local (ex: 190, 192 no Brasil, 911 nos EUA).
+
+Falar uma mensagem automática (TTS) informando que foi detectado um possível acidente, junto com localização.
+
+4. Envio de Dados aos Contatos de Emergência
+Enviar SMS ou notificação para contatos pré-cadastrados com:
+
+Localização em tempo real.
+
+Hora do acidente.
+
+Dados médicos relevantes (se fornecidos previamente).
+
+5. Cadastro e Perfil do Usuário
+Cadastro de nome, idade, grupo sanguíneo, alergias, contato de emergência etc.
+
+6. Geolocalização
+Uso do GPS para informar localização precisa.
+
+Envio de coordenadas em tempo real junto com o alerta.
+
+REQUISITOS NÃO FUNCIONAIS
+1. Privacidade e Segurança
+Todos os dados devem ser criptografados.
+
+Conformidade com LGPD (Brasil), GDPR (Europa) ou equivalente local.
+
+Autorização explícita para acesso a sensores e dados médicos.
+
+2. Alta Confiabilidade
+Baixa taxa de falsos positivos e falsos negativos.
+
+Deve funcionar offline em caso de falha de internet (ex: armazenar dados e ligar por rede GSM).
+
+3. Baixo Consumo de Bateria
+Monitoramento eficiente, com economia de energia.
+
+Uso de sensores de forma otimizada.
+
+4. Compatibilidade
+Funcionar nos principais sistemas operacionais: Android e iOS.
+
+Compatível com diferentes modelos de smartphones.
+
+5. Interface Intuitiva
+Simples de configurar e usar, com foco em acessibilidade.
+
+OUTROS REQUISITOS OPCIONAIS
+Integração com smartwatches e wearables.
+
+Histórico de incidentes.
+
+Botão de pânico manual.
+
+Feedback de serviços de emergência (quando aplicável).
